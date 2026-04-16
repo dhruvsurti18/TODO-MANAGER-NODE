@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(#0f172a);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+.card {
+  border-radius: 15px;
+  background: #1e293b;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #fff !important;
+}

@@ -1,0 +1,15 @@
+<%- include("header/header") %>
+
+<h2 class="mb-3" style="color: white;">Add Task</h2>
+
+<form method="POST" action="/add">
+  <input name="title" class="form-control mb-3" placeholder="Task Title" required>
+  <textarea name="description" class="form-control mb-3" placeholder="Description"></textarea>
+  <select name="priority" class="form-control mb-3">
+    <option>High</option>
+    <option>Medium</option>
+    <option>Low</option>
+  </select>
+  <button class="btn btn-success">Add Task</button>
+</form>
+

@@ -1,0 +1,15 @@
+<%- include("header/header") %>
+
+<h2 class="mb-3" style="color: white;">Edit Task</h2>
+
+<form method="POST">
+  <input name="title" value="<%= task.title %>" class="form-control mb-3">
+  <textarea name="description" class="form-control mb-3"><%= task.description %></textarea>
+  <select name="priority" class="form-control mb-3">
+    <option>High</option>
+    <option>Medium</option>
+    <option>Low</option>
+  </select>
+  <button class="btn btn-primary">Update Task</button>
+</form>
+
